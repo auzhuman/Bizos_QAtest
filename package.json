@@ -6,7 +6,9 @@
   "scripts": {
     "bizos": "cypress run  --spec cypress/e2e/login.cy.js  ",
     "google":  "cypress run  --spec cypress/e2e/google.cy.js",
-    "runOnchrome" : "cypress run " },
+    "runOnchrome" : " npx cypress open " ,
+    "runDashboard" : " npx cypress open --record --key=e0f4b577-e02e-4e2e-8df8-868330a811f5 --browser chrome"},
+     
   "keywords": [],
   "author": "",
   "license": "ISC",
