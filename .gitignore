@@ -9,6 +9,6 @@ cypress.env.json
 
 
 /node_modules
-package-lock.json
+# package-lock.json
 # /cypress/e2e/loginpom.cy.js
 # /cypress/pageObject
