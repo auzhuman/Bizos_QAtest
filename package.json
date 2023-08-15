@@ -1,0 +1,16 @@
+{
+  "name": "cyppr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bizos": "cypress run  --spec cypress/e2e/login.cy.js  ",
+    "google":  "cypress run  --spec cypress/e2e/google.cy.js",
+    "runOnchrome" : "cypress run --browser chrome" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  }
+}
