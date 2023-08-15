@@ -1,0 +1,14 @@
+cypress.env.json
+*package
+
+
+/cypress/node_modules
+/cypress/screenshots
+/cypress/videos
+/extra
+
+
+/node_modules
+package-lock.json
+# /cypress/e2e/loginpom.cy.js
+# /cypress/pageObject
